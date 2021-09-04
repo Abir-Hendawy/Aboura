@@ -1,0 +1,19 @@
+*{
+ box-sizing:box
+ padding:0;
+ margin:0;
+ box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media screen and (max-width:568px) {
+}
+@media screen and (min-width: 569px) and (max-width: 768px){
+}
+@media screen and (min-width:769px) and (max-width:992px){
+}
+@media screen and (min-width:993px){
+}      

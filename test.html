@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmark</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+         
+</head>
+<body>
+  <div class="container text-center">
+  <h3 class="">Bookmarker</h3>
+  <hr>
+  <div class="conatiner p-5" style="background-color:#eee;">
+   <div class="website">
+     <h2>Bookmark your favorite Sites</h2>
+   
+      <div class="website-name">
+        <p class="fw-bold pt-2">Site Name</p>
+        <input id="websiteName" class="form-control input-gp" placeholder="Bookmark Name" type="text" required>
+        <div id="nameAlert" class="alert alert-danger mt-2 d-none">Name should be start with capital and then small</div>
+      </div>
+      <div class="website-url pt-3">
+        <p class="fw-bold">Site Url</p>
+        <input id="websiteUrl" class="form-control input-gp" placeholder="Website URL" type="text" required>
+        <div id="urlAlert" class="alert alert-danger mt-2 d-none">Url should be start with https://</div>
+      </div>
+      <div class="p-4">
+        <button id="submit" class="btn btn-primary">Submit</button>
+      </div>
+   </div>
+  </div>
+  <div class="BookmarkData pt-4">
+    <input id="searchInput" class="form-control mb-3 " placeholder="search by Name">
+
+    <table class="table table-striped">
+      <tbody id="tableBody">
+
+      </tbody>
+    </table>
+    
+  </div>
+  <footer>
+    
+     
+  
+    <hr class="w-100">
+    <p class="float-start ps-5">© 2019 Bookmarker Inc.</p>
+  </footer>
+</div>
+  <!--Main Bootstrap Javascrip-->
+   <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main1.js"></script>  
+</body>   
+ </html>
